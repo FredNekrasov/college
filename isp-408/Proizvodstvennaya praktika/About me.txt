@@ -1,0 +1,26 @@
+## Android
+Язык программирования - kotlin. 
+Среда разработки - android studio.
+UI: views(XML), jetpack compose.
+Работа с потоками: coroutines.
+di: dagger2, hilt.
+Базы данных: room.
+Сетевое взаимодействие: retrofit2.
+Тестирование: unit, ui
+Принципы и Архитектуры: ооп, solid, kiss, dry, single activity, rest, mvvm, mvi, clean architecture.
+Остальное: navigation components(fragments, функции jetpack compose), viewBinding, liveData, flow.
+
+GitHub: https://github.com/FredNekrasov
+В данный момент прохожу обучение в СПО и нахожусь в поиске работы, подработки или стажировки.
+
+## C#
+Язык программирования - C#.
+Среда разработки - ms visual studio 2022.
+Платформы: .net framework, .net core/.net, asp.net core.
+База данных: ms sql server.
+desktop: winforms, wpf.
+web backend: asp.net core, asp.net core web api (rest/restful api).
+ORM: entity framework 6 (ef6), entity framework core, linq.
+Принципы и Архитектуры: ооп, solid, kiss, rest.
+
+Разработка в web api полгода, а desktop 3 года. asp.net в данный момент изучаю эту технологию. Есть понимание таких архитектур, как mvp, mvvm, clean architecture.
