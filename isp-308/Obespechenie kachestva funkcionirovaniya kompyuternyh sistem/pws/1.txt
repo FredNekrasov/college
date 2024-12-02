@@ -1,0 +1,29 @@
+// Выводит день недели по введенной дате
+#include <stdio.h>
+#include <locale.h>
+
+int Date (int D, int M, int Y)
+{
+    int a, b, c, d;
+    a = (14 - M)/12;
+    b = Y - a;
+    c = M + 12 * a - 2;
+    d = 7000 + (D + b + b / 4 - b / 100 + b / 400 + (31 * c) / 12);
+    return d % 7;
+}
+int main()
+{
+    setlocale(0, "RUS");
+    int D, M, Y, data;
+    printf("Введите дату");
+    scanf("%i%i%i", &D, &M, &Y);
+    data = Date(D, M, Y);
+    if (data == 1) printf(" Понедельник");
+    else if (data == 2) printf(" Вторник");
+    else if (data == 3) printf(" Среда");
+    else if (data == 4) printf(" Четверг");
+    else if (data == 5) printf(" Пятница");
+    else if (data == 6) printf(" Суббота");
+    else printf(" Воскресенье");
+    return 0;
+}
